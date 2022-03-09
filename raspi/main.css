@@ -1,0 +1,97 @@
+.text-glow {
+    text-align: center;
+    text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+html {
+    background-color: #121212;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121212;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: chartreuse;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.button-normal {
+    text-align: center;
+    background-color: grey;
+    border: none;
+    color: chartreuse;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 16px;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button-form{
+    background-color: grey;
+    border: none;
+    color: chartreuse;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+    color: aqua;
+}
+h2 {
+    text-shadow: 2px 2px green;
+}
+.container {
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.form-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.task-input{
+    border-radius: 8px;
+}
