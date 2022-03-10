@@ -164,6 +164,12 @@ func PrintSlice(slice []int) {
 	}
 }
 
+func PrintWithNewLines(lines ...string) {
+	for _, line := range lines {
+		fmt.Println(line)
+	}
+}
+
 /*func editNumberPointer(j *int) {
 	*j = 27
 }
