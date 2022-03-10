@@ -7,6 +7,13 @@ import (
 	"strings"
 )
 
+// Vector3 A 3-dimensional Vector
+type Vector3 struct {
+	X float32
+	Y float64
+	Z float64
+}
+
 func Add(x int, y int) int {
 	return x + y
 }
